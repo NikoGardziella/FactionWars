@@ -1,0 +1,228 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16174 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Omistaja/Documents/GitHub/FactionWars/FactionWars
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61758
+Successfully changed project path to: C:/Users/Omistaja/Documents/GitHub/FactionWars/FactionWars
+C:/Users/Omistaja/Documents/GitHub/FactionWars/FactionWars
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 142.63 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Omistaja/Documents/GitHub/FactionWars/FactionWars/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.15.1298
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006980 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 149.93 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Domain Reload Profiling:
+	ReloadAssembly (887ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (655ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (139ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (150ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008060 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 152.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.040 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2040ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1784ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (1130ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (153ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (682ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4765 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (1.9 MB). Loaded Objects now: 5228.
+Memory consumption went from 234.5 MB to 232.6 MB.
+Total: 5.017400 ms (FindLiveObjects: 0.494200 ms CreateObjectMapping: 0.427200 ms MarkObjects: 3.529200 ms  DeleteObjects: 0.566000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 977954.750004 seconds.
+  path: Assets/FSP/Modular Terrain 2.0/Source Models/Props/Timber_Cut_4.fbx
+  artifactKey: Guid(eedee7cc05e151444b347c7cfdf8fdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FSP/Modular Terrain 2.0/Source Models/Props/Timber_Cut_4.fbx using Guid(eedee7cc05e151444b347c7cfdf8fdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4000e134d9f673570f3b4e607bd5f645') in 0.281268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FSP/Modular Terrain 2.0/Materials/Foliage/_MAST_Thumbnails/Bark Firewood.png
+  artifactKey: Guid(1931b99ed94a119409834dfd9cb897ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FSP/Modular Terrain 2.0/Materials/Foliage/_MAST_Thumbnails/Bark Firewood.png using Guid(1931b99ed94a119409834dfd9cb897ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1865ef20473734421cc523457b3af63b') in 0.033876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FSP/Modular Terrain 2.0/Source Models/Props/Campfire_Star.fbx
+  artifactKey: Guid(9163d0ddfc8a99a4a82a42bd6aaaf08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FSP/Modular Terrain 2.0/Source Models/Props/Campfire_Star.fbx using Guid(9163d0ddfc8a99a4a82a42bd6aaaf08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5761a6e70debef4971d3b5a2349712a4') in 0.177323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/FSP/Modular Terrain 2.0/Source Models/Prefabs/Campfire_Star.prefab
+  artifactKey: Guid(16b305e5afc49d545ae87f60a5dabf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FSP/Modular Terrain 2.0/Source Models/Prefabs/Campfire_Star.prefab using Guid(16b305e5afc49d545ae87f60a5dabf14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a679770ee1c1d876e19909521969d8') in 0.064791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FSP/Modular Terrain 2.0/Source Models/Prefabs/_MAST_Thumbnails/Campfire_Teepee.png
+  artifactKey: Guid(c0fcd368ccd9e6548b6efc5b531547b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FSP/Modular Terrain 2.0/Source Models/Prefabs/_MAST_Thumbnails/Campfire_Teepee.png using Guid(c0fcd368ccd9e6548b6efc5b531547b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc2f14db97410830ef0eec864a6b72d') in 0.019046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FSP/Modular Terrain 2.0/Source Models/Props/Timber_Cut_1.fbx
+  artifactKey: Guid(65e3664b5968d3842a2836b377bfc21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FSP/Modular Terrain 2.0/Source Models/Props/Timber_Cut_1.fbx using Guid(65e3664b5968d3842a2836b377bfc21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3c9ead732dfc2e95fc81a6a8ab1c6f') in 0.049975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/FSP/Modular Terrain 2.0/Source Models/Props/Timber_Stack_2.fbx
+  artifactKey: Guid(01a09928b09817e458008240bb2a7a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FSP/Modular Terrain 2.0/Source Models/Props/Timber_Stack_2.fbx using Guid(01a09928b09817e458008240bb2a7a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc654f62468524fe7bf379a3c3593a5') in 0.191172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FSP/Modular Terrain 2.0/Source Models/Props/Timber_Cut_2.fbx
+  artifactKey: Guid(d6f2d57d1a71ebc46b3f277f30420f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FSP/Modular Terrain 2.0/Source Models/Props/Timber_Cut_2.fbx using Guid(d6f2d57d1a71ebc46b3f277f30420f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162dbe6b996a188675a6afa3aaf0b627') in 0.053467 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.9 MB). Loaded Objects now: 5275.
+Memory consumption went from 132.6 MB to 130.8 MB.
+Total: 5.736000 ms (FindLiveObjects: 0.483500 ms CreateObjectMapping: 0.608800 ms MarkObjects: 4.068400 ms  DeleteObjects: 0.574100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
