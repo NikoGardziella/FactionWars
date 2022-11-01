@@ -1,6 +1,6 @@
 # FactionWars
 
-My hobby ongoing project, where I create similar game to Clash Royale with Unity. 
+My ongoing hobby project, where I create similar game to Clash Royale with Unity. 
 
 Player stats and Cards in Microsoft Azure Playfab.
 
